@@ -12,17 +12,17 @@ $faker = Faker\Factory::create()
 </head>
 <body>
 
-<h1 style="padding-left: 30px;">Où acheter le meilleur <strong>chocopain</strong></h1>
+<h1 style="padding-left: 30px;"> Emplacement des différents objets connectés</h1>
 
 <div class="container">
 
   <div class="list">
-      <?php for ($i = 0; $i < 30; $i++): ?>
+      <?php for ($i = 0; $i < 20; $i++): ?>
         <div class="item js-marker" data-lat="<?= $faker->latitude(43.6009200, 43.6109200) ?>" data-lng="<?= $faker->longitude(3.8772300, 3.90306) ?>" data-price="<?= $faker->numberBetween(0, 100) ?>">
           <img src="image/maison.jpeg" alt="">
-          <h4>3 barres de chocolat pour le prix de 2 !</h4>
+          <h4>Appareil domestiques </h4>
           <p>
-            Ici une petite description qui explique pourquoi c'est mieux ici
+            Leurs nombres est indiqués sur la carte 
           </p>
         </div>
       <?php endfor; ?>
