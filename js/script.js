@@ -234,8 +234,6 @@ function showMovies(data) {
 
 
 
-
-
 var activeSlide = 0;
 var totalVideos = 0;
 
